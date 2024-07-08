@@ -45,7 +45,7 @@ function Resume() {
             <h3 className="text-center">Faizan Khanzada</h3>
             <p className="text-center">Front-End Web Developer</p>
 
-            <Col sm={12} className=" d-flex justify-content-between">
+            <Col sm={12} className="d-flex justify-content-between">
               <div className="resume_data_div">
                 <h5>
                   Location:{" "}
@@ -111,7 +111,7 @@ function Resume() {
               <h5>{detail.subject}</h5>
 
               <Col xs={12} md={4} className="p-md-5 p-2">
-                <h5 className="text-primary fw-bold">{detail.time}</h5>
+                <h5 className=" fw-bold">{detail.time}</h5>
                 <h5 className="pt-1">{detail.company}</h5>
               </Col>
               <Col xs={12} md={8} className="p-md-5 p-2 pt-5 ">

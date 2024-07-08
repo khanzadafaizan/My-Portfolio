@@ -28,7 +28,7 @@ function Contact() {
 
   return (
     <Container id="contact">
-      <Row className="flex-column d-flex align-items-center ">
+      <Row className="mx-1  flex-column d-flex align-items-center ">
         <div className="about-div">
           <h1 className="about text-center">CONTACT</h1>
           <p className="about-text text-center">
@@ -36,7 +36,7 @@ function Contact() {
             spectacular!
           </p>
         </div>
-        <Col xs={10} md={8} lg={6} className="resume_bg p-2 mt-2">
+        <Col className="resume_bg p-2 mt-2">
           <div>
             <Form ref={form} onSubmit={sendEmail}>
               <Form.Group
